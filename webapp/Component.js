@@ -35,6 +35,7 @@ sap.ui.define([
 		 * @description returns content density style class depends on target device touch support
 		 * @function
 		 * @memberOf module:component
+		 * @return {string} - anonym - content density style class
 		 * @inner
 		 */
 		getContentDensityClass : function() {
