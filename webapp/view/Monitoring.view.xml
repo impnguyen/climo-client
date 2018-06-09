@@ -8,10 +8,10 @@
 		<f:title>
 			<f:DynamicPageTitle>
 				<f:heading>
-					<Title text="Header Title" />
+					<Title text="CLIMO" />
 				</f:heading>
 				<f:expandedContent>
-					<Label text="This is a subheading" />
+					<Label text="the CLIent MOnitoring app" />
 				</f:expandedContent>
 				<f:snappedContent>
 					<Label text="This is a subheading" />
