@@ -31,7 +31,7 @@
 		</f:title>
 
 		<!-- DynamicPage Header -->
-		<f:header>
+		<!-- <f:header>
 			<f:DynamicPageHeader pinnable="true">
 				<f:content>
 					<FlexBox alignItems="Start" justifyContent="SpaceBetween">
@@ -59,13 +59,13 @@
 					</FlexBox>
 				</f:content>
 			</f:DynamicPageHeader>
-		</f:header>
+		</f:header> -->
 
 		<!-- table of errors, logs or messages -->
 		<f:content>
 			<t:Table
 				rows="{ path: '/z_c_climo_error', lenght: 50, sorter: { path: 'timestamp', descending: true }, parameters: { expand : 'to_Type'} }"
-				title="Einträge" selectionMode="None">
+				title="Einträge" selectionMode="None" visibleRowCount="25" editable="false" enableGrouping="true" enableColumnFreeze="true" enableCellFilter="true" enableCustomFilter="true">
 				<t:columns>
 					<t:Column width="20rem">
 						<Label text="Nachricht" />
