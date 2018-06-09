@@ -1,0 +1,37 @@
+{
+  "name": "zclimo_client",
+  "version": "1.0.0",
+  "description": "an openui5 client for the CLIMO service endpoint",
+  "main": "webapp/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/impnguyen/climo-client.git"
+  },
+  "keywords": [
+    "climo",
+    "climo-client",
+    "client",
+    "openui5",
+    "sapui5",
+    "logging",
+    "error",
+    "client",
+    "monitoring"
+  ],
+  "author": "Manh Phuoc Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/impnguyen/climo-client/issues"
+  },
+  "homepage": "https://github.com/impnguyen/climo-client#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-eslint": "^20.1.0",
+    "grunt-openui5": "^0.14.0"
+  }
+}
