@@ -30,6 +30,8 @@
   "devDependencies": {
     "grunt": "^1.0.3",
     "grunt-cli": "^1.2.0",
-    "grunt-eslint": "^20.1.0"
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-eslint": "^20.1.0",
+    "grunt-openui5": "^0.14.0"
   }
 }
