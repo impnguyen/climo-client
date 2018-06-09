@@ -50,12 +50,18 @@
 		"dependencies": {
 			"minUI5Version": "1.52.0",
 			"libs": {
-				"sap.m": {},
-				"sap.ui.core": {},
-				"sap.ui.layout": {}
+				"sap.m": {
+					
+				},
+				"sap.ui.core": {
+					
+				},
+				"sap.ui.layout": {
+					
+				}
 			},
 			"components": {
-
+				
 			}
 		},
 		"contentDensities": {
@@ -83,7 +89,7 @@
 		"resources": {
 			"css": [
 				{
-					"uri": "css/style.css"
+					
 				}
 			]
 		},
@@ -91,17 +97,28 @@
 			"config": {
 				"routerClass": "sap.m.routing.Router",
 				"viewType": "XML",
-				"clearTarget": false,
+				"clearTarget": true,
 				"viewPath": "mpn.climo.client.view",
-				"controlId": "climoClient",
+				"controlId": "app",
 				"controlAggregation": "pages",
-				"homeRoute": "log",
+				"homeRoute": "monitoring",
 				"transition": "flip",
 				"async": true
 			},
 			"routes": [
+				{
+					"pattern": "",
+					"name": "monitoring",
+					"target": "monitoring"
+				}
 			],
 			"targets": {
+				"monitoring": {
+					"viewName": "Monitoring",
+					"viewPath": "mpn.climo.client.view",
+					"viewId": "monitoringDynPage",
+					"viewLevel": 1
+				}
 			}
 		}
 	},
